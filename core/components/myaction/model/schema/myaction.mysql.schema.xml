@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model package="myaction" baseClass="xPDOObject" platform="mysql" defaultEngine="MyISAM" phpdoc-package="myaction">
+    <object class="myActionItem" table="myaction_items" extends="xPDOSimpleObject">
+        <field key="head1" dbtype="varchar" precision="100" phptype="string" null="false" default="" />
+        <field key="head2" dbtype="varchar" precision="100" phptype="string" null="false" default="" />
+        <field key="description" dbtype="text" phptype="text" null="false" default="" />
+        <field key="url" dbtype="varchar" precision="100" phptype="string" null="false" default="" />
+        <field key="img" dbtype="varchar" precision="100" phptype="string" null="false" default="" />
+    </object>    
+</model>
